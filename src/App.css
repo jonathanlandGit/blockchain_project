@@ -1,0 +1,123 @@
+body,
+.pure-g [class*=pure-u] {
+  font-family: Lato, sans-serif;
+  background: #eee
+}
+
+h1, h2, h3 {
+  font-family: Lato, sans-serif;
+
+}
+
+code {
+  display: block;
+  margin: 20px 0 15px 0;
+  padding: 10px;
+  background: #eee;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 45px 20px;
+  display: block;
+}
+
+.taskContainer {
+  display: block;
+  width: 500px;
+  margin: 100px auto 0; 
+  float: right
+}
+
+.taskContainer input {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+
+.taskContainer p {
+  font-family: Lato, sans-serif;
+}
+
+
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  color: green;
+}
+
+/*
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+*/
+
+.pure-button-primary {
+  background-color: #0c1a2b;
+}
+
+.pure-button-primary:hover {
+  background-color: #233e5e;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  position: relative;
+  padding: 10px;
+  background: #004e9c;
+  font-family: 'Ubuntu', 'Ubuntu', sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:active,
+.navbar a:focus,
+.navbar a:hover {
+background: #233e5e;
+}
+
+.navbar .pure-menu-heading {
+  font-weight: bold;
+  text-transform: none;
+  padding: 50px;
+  float: right;
+}
+
+.navbar .navbar-right {
+  float: right;
+}
+
+.navbar .uport-logo {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.vert-offset-top-0{
+    margin-top: 0em;
+}
+.vert-offset-top-2{
+    margin-top: 2em;
+}
